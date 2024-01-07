@@ -4,6 +4,18 @@ public class Conta {
         //Atributos
         private int numero;
         private double saldo;
+        //Declarando Conta como construtor padrão
+        public Conta() {
+        }
+
+        public Conta (int numero) {
+            this.numero = numero;
+            this.saldo = saldo = 0;
+        }
+
+        public Conta (double saldo) {
+            this.saldo = saldo;
+        }
 
         public Conta( int numero, double saldo) {
             this.numero = numero;
@@ -27,4 +39,3 @@ public class Conta {
         }
 
 }
-
