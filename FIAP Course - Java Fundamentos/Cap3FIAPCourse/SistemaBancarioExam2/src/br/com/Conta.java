@@ -2,8 +2,7 @@ package br.com;
 import java.io.Serializable;
 /**
  * Classe que abstrai uma Conta Bancária
- * @author Silas Alves dos Santos
- * @version 1.0
+ * @author Silas Alves dos Santos 
  */
 
 
@@ -73,6 +72,6 @@ public class Conta implements Serializable {
     }
 
 
-
+ 
 
 }
